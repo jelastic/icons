@@ -1,0 +1,59 @@
+{
+    "jps": "https://raw.githubusercontent.com/sych74/mysql-cluster-1/master/addons/auto-clustering/auto-cluster.jps",
+    "defaultState": true,
+    "nodeGroupData": {
+        "scalingMode": "STATELESS"
+    },
+    "compatibleAddons": ["mysql-auto-cluster"],
+    "settings": {
+        "data": {
+            "scheme": "slave"
+        },
+        "fields": [{
+            "type": "list",
+            "caption": "Scheme",
+            "name": "scheme",
+            "values": [{
+                   "value": "master",
+                   "caption": "Master - Master",
+                   "tooltip": "Tip Master - Master"
+               }, {
+                   "value": "slave",
+                   "caption": "Master - Slave"
+               }, {
+                   "value": "multi",
+                   "caption": "Multi MGR",
+                   "tooltip": "Mysql Group Replication cluster in Multi-Primary mode"
+               }, {
+                   "value": "single",
+                   "caption": "Single MGR",
+                   "tooltip": "Mysql Group Replication cluster in Single-Primary mode"
+               }
+           ]
+        }]
+    },
+    "validation": {
+        "scalingMode": "STATELESS",
+        "rules": {
+            "scheme": {
+                "master": {
+                    "minCount": 2,
+                    "maxCount": 11
+                },
+                "slave": {
+                    "minCount": 2,
+                    "maxCount": 11
+                },
+                "single": {
+                    "minCount": 3,
+                    "maxCount": 11
+                },
+                "multi": {
+                    "minCount": 3,
+                    "maxCount": 11
+                }
+            }
+        }
+    },
+    "description": "<p>Ready-to-work scalable MySQL Cluster with master-slave asynchronous replication and ProxySQL load balancer in front of it. Is supplied with embedded Orchestrator GUI for convenient cluster management and provides even load distribution, slaves healthcheck and autodiscovery of newly added DB nodes</p>"
+}

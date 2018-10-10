@@ -1,0 +1,11 @@
+{
+  "onlyNew"     : false,
+  "jps"         : "https://raw.githubusercontent.com/jelastic-jps/wildfly/master/addons/auto-clustering/auto-cluster.jps",  
+  "defaultState": true,
+  "compatibleAddons": ["wildfly-cluster"],
+  "nodeGroupData": {
+    "skipNodeEmails": true,
+    "scalingMode": "clone"
+  },
+  "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface"
+}

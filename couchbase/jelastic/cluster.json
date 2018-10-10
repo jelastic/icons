@@ -6,7 +6,7 @@
   "compatibleAddons": ["couchbase-auto-cluster"],
   "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "STATELESS"
+    "scalingMode": "new"
   },
   "description" : "Clustered Couchbase DB solution with out-of-the-box automatic scaling and embedded data rebalancing"
 }

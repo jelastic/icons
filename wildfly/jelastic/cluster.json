@@ -7,5 +7,6 @@
     "skipNodeEmails": true,
     "scalingMode": "clone"
   },
-  "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface"
+  "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface",
+  "skipOnEnvInstall": true
 }

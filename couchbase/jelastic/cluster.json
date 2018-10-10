@@ -1,0 +1,11 @@
+{
+  "onlyNew"     : false,
+  "jps"         : "https://raw.githubusercontent.com/jelastic-jps/couchbase/master/certified/manifest.jps",
+  "required"    : true,
+  "defaultState": true,
+  "nodeGroupData": {
+    "skipNodeEmails": true,
+    "scalingMode": "STATELESS"
+  },
+  "description" : "Clustered Couchbase DB solution with out-of-the-box automatic scaling and embedded data rebalancing"
+}

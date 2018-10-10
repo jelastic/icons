@@ -1,0 +1,13 @@
+{
+  "onlyNew"     : false,
+  "jps"         : "https://raw.githubusercontent.com/jelastic-jps/glassfish/master/addons/auto-cluster.jps",  
+  "defaultState": true,
+    
+   "compatibleAddons": ["glassfish-cluster-addon"],
+  "nodeGroupData": {
+    "skipNodeEmails": true,
+    "scalingMode": "clone"
+  },
+  "description" : "GlassFish with automatic clustering and scaling",
+  "skipOnEnvInstall": true
+}

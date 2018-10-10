@@ -8,6 +8,6 @@
     "skipNodeEmails": true,
     "scalingMode": "clone"
   },
-  "description" : "GlassFish with automatic clustering and scaling",
+  "description" : "Payara with automatic clustering and scaling",
   "skipOnEnvInstall": true
 }

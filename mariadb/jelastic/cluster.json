@@ -36,10 +36,12 @@
         "rules": {
             "scheme": {
                 "master": {
-                    "minCount": 2
+                    "minCount": 2,
+                    "maxCount": 2
                 },
                 "slave": {
-                    "minCount": 2
+                    "minCount": 2,
+                    "maxCount": 2
                 },
                 "galera": {
                     "minCount": 3

@@ -1,12 +1,12 @@
 {
   "onlyNew"     : false,
   "jps"         : "https://raw.githubusercontent.com/dimkadt/glassfish/master/addons/auto-cluster.jps",  
-  "defaultState": true,
+  "defaultState": false,
     
    "compatibleAddons": ["glassfish-cluster-addon"],
    "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "clone"
+    "scalingMode": "STATEFUL"
   },
   "description" : "Payara with automatic clustering and scaling",
   "skipOnEnvInstall": true

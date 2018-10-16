@@ -1,11 +1,11 @@
 {
   "onlyNew"     : false,
   "jps"         : "https://raw.githubusercontent.com/dimkadt/wildfly/master/addons/auto-clustering/auto-cluster.jps",  
-  "defaultState": true,
+  "defaultState": false,
   "compatibleAddons": ["wildfly-cluster"],
   "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "clone"
+    "scalingMode": "STATEFUL"
   },
   "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface",
   "skipOnEnvInstall": true

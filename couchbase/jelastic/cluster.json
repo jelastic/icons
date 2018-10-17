@@ -1,5 +1,5 @@
 {
-  "onlyNew"     : false,
+  "convertable" : true,
   "jps"         : "https://raw.githubusercontent.com/jelastic-jps/couchbase/master/certified/manifest.jps",
   "required"    : true,
   "defaultState": true,

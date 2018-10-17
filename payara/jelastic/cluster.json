@@ -1,5 +1,5 @@
 {
-  "onlyNew"     : false,
+  "convertable" : true,
   "jps"         : "https://raw.githubusercontent.com/dimkadt/glassfish/master/addons/auto-cluster.jps",  
   "defaultState": false,
     

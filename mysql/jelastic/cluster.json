@@ -3,7 +3,8 @@
     "defaultState": false,
     "skipOnEnvInstall": true,
     "nodeGroupData": {
-        "scalingMode": "STATELESS"
+        "scalingMode": "STATELESS",
+        "isRedeploySupport": false
     },
     "compatibleAddons": ["mysql-auto-cluster"],
     "settings": {

@@ -5,7 +5,7 @@
     "skipOnEnvInstall": true,
     "nodeGroupData": {
         "scalingMode": "STATELESS",
-        "isRedeploySupport": false,
+        "isRedeploySupport": false
     },
     "compatibleAddons": ["mysql-auto-cluster"],
     "settings": {

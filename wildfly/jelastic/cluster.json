@@ -6,7 +6,8 @@
   "nodeGroupData": {
     "skipNodeEmails": true,
     "scalingMode": "STATEFUL",
-    "adminUrl": ""
+    "adminUrl": "",
+    "isResetServicePassword": false
   },
   "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface",
   "skipOnEnvInstall": true

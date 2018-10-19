@@ -5,7 +5,8 @@
   "compatibleAddons": ["wildfly-cluster"],
   "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "STATEFUL"
+    "scalingMode": "STATEFUL",
+    "adminUrl": ""
   },
   "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface",
   "skipOnEnvInstall": true

@@ -6,7 +6,9 @@
    "compatibleAddons": ["glassfish-cluster-addon"],
    "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "STATEFUL"
+    "scalingMode": "STATEFUL",
+    "adminUrl": "",
+    "isResetServicePassword": false
   },
   "description" : "Payara with automatic clustering and scaling",
   "skipOnEnvInstall": true

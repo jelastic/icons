@@ -18,11 +18,11 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "Master-Master with extra slaves"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='369' height='329' src='https://bit.ly/2RaIzvL'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='300' height='365' src='https://bit.ly/2R7DUKO'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='270' height='329' src='https://bit.ly/2R7DUKO'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",

@@ -19,11 +19,11 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "Master-Master with extra slaves"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://bit.ly/2RaIzvL'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "Master-Slave with extra slaves"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://bit.ly/2NWBixr'>"
                }, {
                    "value": "galera",
                    "caption": "Galera",
@@ -48,5 +48,5 @@
             }
         }
     },
-    "description": "Automatic clusterization of the databases based on the chosen scheme with pre-configured replication and auto-discovery of the nodes. <a href=''>Learn More</a>"
+    "description": "Automatic clusterization of the databases based on the chosen scheme with pre-configured replication and auto-discovery of the nodes."
 }

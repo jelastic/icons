@@ -56,5 +56,5 @@
             }
         }
     },
-    "description": "Automatic clusterization of the databases based on the chosen scheme with pre-configured replication and auto-discovery of the nodes. <a href=''>Learn More</a>"
+    "description": "Automatic clusterization of the databases based on the chosen scheme with pre-configured replication and auto-discovery of the nodes."
 }

@@ -19,7 +19,7 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://bit.ly/2RaIzvL'>"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://bit.ly/2PNwUTh'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
@@ -27,7 +27,7 @@
                }, {
                    "value": "galera",
                    "caption": "Galera",
-                   "tooltip": "Galera cluster"
+                   "tooltip": "<h3>Galera Cluster</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://bit.ly/2Pl82W8'>"
                }
            ]
         }]

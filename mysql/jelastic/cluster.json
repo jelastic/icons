@@ -22,7 +22,7 @@
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "Master-Slave with extra slaves"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='300' height='365' src='https://bit.ly/2R7DUKO'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",

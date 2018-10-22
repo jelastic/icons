@@ -9,6 +9,6 @@
     "adminUrl": "",
     "isResetServicePassword": false
   },
-  "description" : "WildFly multiple instances running in managed domain mode & sharing the same management interface",
+  "description" : "WildFly in Domain Mode with enabled clustering to get HA and session replication among the nodes to guarantee the availability of a deployed Java EE application in case of a node failure. <a href='https://bit.ly/2q6ta3V'>Learn More</a><img width='290' height='157' src='https://bit.ly/2JazyjA'>",
   "skipOnEnvInstall": true
 }

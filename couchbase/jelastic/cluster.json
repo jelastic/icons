@@ -8,5 +8,5 @@
     "skipNodeEmails": true,
     "scalingMode": "new"
   },
-  "description" : "Clustered Couchbase DB solution with out-of-the-box automatic scaling and embedded data rebalancing"
+  "description" : "Automatically interconnected Couchbase servers with pre-configured auto-scaling and rebalancing represent a single highly available data storing system. <a href='https://bit.ly/2JdfuNl'>Learn More</a><img width='269' height='96' src='https://bit.ly/2CXv1AL'>"
 }

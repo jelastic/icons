@@ -1,7 +1,7 @@
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="368px" height="446px">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="layers" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="238px" height="208px" viewBox="0 0 238 208" enable-background="new 0 0 238 208" xml:space="preserve">
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="13px" x="152px" y="442px"><tspan font-size="13px" font-family="Arial" fill="#E88D0B">Replication</tspan></text>
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="13px" x="292px" y="211px"><tspan font-size="13px" font-family="Arial" fill="#55990B">Read</tspan></text>
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="13px" x="41px" y="203px"><tspan font-size="13px" font-family="Arial" fill="#D65D5D">Write</tspan></text>

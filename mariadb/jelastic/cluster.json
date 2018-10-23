@@ -29,7 +29,8 @@
                    "caption": "Galera",
                    "tooltip": "<h3>Galera Cluster</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://bit.ly/2Pl82W8'>"
                }
-           ]
+           ],
+           "tipParams": {"dismissDelay":15000,"anchor":"l","hideOnOver":false}
         }]
     },
     "validation": {

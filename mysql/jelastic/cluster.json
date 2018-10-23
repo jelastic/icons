@@ -32,7 +32,8 @@
                    "caption": "Single MGR",
                    "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='286' height='280' src='https://bit.ly/2AmH1Jw'>"
                }
-           ]
+           ],
+           "tipParams": {"dismissDelay":15000,"anchor":"l","hideOnOver":false}
         }]
     },
     "validation": {

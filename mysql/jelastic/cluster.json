@@ -23,7 +23,7 @@
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://github.com/jelastic/icons/blob/master/mysql/jelastic/images/tip-auto-clustering-ms-test.png'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms-test.png'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",

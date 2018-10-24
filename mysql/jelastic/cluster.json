@@ -19,19 +19,19 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://bit.ly/2RaIzvL'>"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.png'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://bit.ly/2R7DUKO'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.png'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",
-                   "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://bit.ly/2q6sNGQ'>"
+                   "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mg.png'>"
                }, {
                    "value": "single",
                    "caption": "Single MGR",
-                   "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='286' height='280' src='https://bit.ly/2AmH1Jw'>"
+                   "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='286' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-sg.png'>"
                }
            ],
            "tipParams": {"dismissDelay":15000,"anchor":"l","hideOnOver":false}

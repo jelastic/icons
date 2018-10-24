@@ -20,15 +20,15 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://bit.ly/2PNwUTh'>"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3> <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mariadb/jelastic/images/tip-auto-clustering-mm.png'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://bit.ly/2NWBixr'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3> <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mariadb/jelastic/images/tip-auto-clustering-ms.png'>"
                }, {
                    "value": "galera",
                    "caption": "Galera",
-                   "tooltip": "<h3>Galera Cluster</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://bit.ly/2Pl82W8'>"
+                   "tooltip": "<h3>Galera Cluster</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mariadb/jelastic/images/tip-auto-clustering-galera.png'>"
                }
            ],
            "tipParams": {"dismissDelay":15000,"anchor":"l","hideOnOver":false}

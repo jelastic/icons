@@ -8,5 +8,5 @@
     "skipNodeEmails": true,
     "scalingMode": "new"
   },
-  "description" : "Automatically interconnected Couchbase servers with pre-configured auto-scaling and rebalancing represent a single highly available data storing system. <a href='https://bit.ly/2JdfuNl'>Learn More</a><img width='269' height='96' src='https://bit.ly/2CXv1AL'>"
+  "description" : "Automatically interconnected Couchbase servers with pre-configured auto-scaling and rebalancing represent a single highly available data storing system. <a href='https://github.com/jelastic-jps/couchbase'>Learn More</a><img width='269' height='96' src='https://raw.githubusercontent.com/jelastic/icons/master/couchbase/jelastic/images/tip-auto-clustering.png'>"
 }

@@ -10,6 +10,6 @@
     "adminUrl": "",
     "isResetServicePassword": false
   },
-  "description" : "Interconnection of Payara servers with pre-configured session replication, load balancing, and automatic scaling. <a href='https://bit.ly/2POlkar'>Learn More</a><img width='290' height='156' src='https://bit.ly/2AmvqtM'>",
+  "description" : "Interconnection of Payara servers with pre-configured session replication, load balancing, and automatic scaling. <a href='https://jelastic.com/blog/glassfish-payara-auto-clustering-cloud-hosting/'>Learn More</a><img width='290' height='156' src='https://raw.githubusercontent.com/jelastic/icons/master/payara/jelastic/images/tip-auto-clustering.png'>",
   "skipOnEnvInstall": true
 }

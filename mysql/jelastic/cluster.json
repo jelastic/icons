@@ -4,6 +4,7 @@
     "skipOnEnvInstall": true,
     "nodeGroupData": {
         "scalingMode": "STATELESS",
+        "isResetServicePassword": "NODE",
         "skipNodeEmails": true,
         "isRedeploySupport": false
     },

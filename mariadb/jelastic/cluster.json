@@ -6,6 +6,7 @@
     "nodeGroupData": {
         "scalingMode": "STATELESS",
         "skipNodeEmails": true,
+        "isResetServicePassword": "NODE",
         "isRedeploySupport": false
     },
     "compatibleAddons": ["mysql-auto-cluster"],

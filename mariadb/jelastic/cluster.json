@@ -32,7 +32,7 @@
                    "tooltip": "<h3>Galera Cluster</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mariadb/jelastic/images/tip-auto-clustering-galera.png'>"
                }
            ],
-           "tipParams": {"dismissDelay":15000,"anchor":"l","hideOnOver":false}
+           "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0}
         }]
     },
     "validation": {

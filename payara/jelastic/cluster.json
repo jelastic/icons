@@ -1,6 +1,6 @@
 {
   "convertable" : true,
-  "jps"         : "https://raw.githubusercontent.com/dimkadt/glassfish/master/addons/auto-cluster.jps",  
+  "jps"         : "https://raw.githubusercontent.com/jelastic-jps/glassfish/master/addons/auto-cluster.jps",  
   "defaultState": false,
     
    "compatibleAddons": ["glassfish-cluster-addon"],

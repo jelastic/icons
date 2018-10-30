@@ -20,11 +20,11 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "<h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes</h3> <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.png'>"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.png'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves</h3> <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.png'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves. <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.png'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",

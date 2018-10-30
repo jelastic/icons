@@ -20,19 +20,19 @@
             "values": [{
                    "value": "master",
                    "caption": "Master-Master",
-                   "tooltip": "<h3>Master-Master with Extra Slaves</h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.png'>"
+                   "tooltip": "<h3>Master-Master with Extra Slaves</h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.svg?sanitize=true'>"
                }, {
                    "value": "slave",
                    "caption": "Master-Slave",
-                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves. <img width='230' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.png'>"
+                   "tooltip": "<h3>Master-Slave with Extra Slaves</h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.svg?sanitize=true'>"
                }, {
                    "value": "multi",
                    "caption": "Multi MGR",
-                   "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mg.png'>"
+                   "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mg.svg?sanitize=true'>"
                }, {
                    "value": "single",
                    "caption": "Single MGR",
-                   "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='286' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-sg.png'>"
+                   "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-sg.svg?sanitize=true'>"
                }
            ],
            "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0}

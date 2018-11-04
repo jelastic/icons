@@ -1,6 +1,6 @@
 {
   "convertable" : true,
-  "jps"         : "https://raw.githubusercontent.com/dimkadt/couchbase/master/certified/manifest.jps",
+  "jps"         : "https://raw.githubusercontent.com/jelastic-jps/couchbase/master/certified/manifest.jps",
   "required"    : true,
   "defaultState": true,
   "compatibleAddons": ["couchbase-auto-cluster"],

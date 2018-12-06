@@ -35,7 +35,7 @@
                    "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='314' height='308' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-sg.svg?sanitize=true'>"
                }
            ],
-           "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0}
+           "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0,"text":"LT_Tip_Cluster_MySQL_%(value)"}
         }]
     },
     "validation": {

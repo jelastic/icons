@@ -43,7 +43,7 @@
             }
         }, {
             "type": "toggle",
-            "caption": "Add ProxySQL for SQL Load Balancing",
+            "caption": "Add ProxySQL",
             "name": "isProxySQL",
             "value": "true"
         }]

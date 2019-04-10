@@ -42,8 +42,8 @@
                 "text": "LT_Tip_Cluster_MySQL_%(value)"
             }
         }, {
-            "type": "checkbox",
-            "caption": "Install ProxySQL for SQL Load Balancing",
+            "type": "toggle",
+            "caption": "Add ProxySQL for SQL Load Balancing",
             "name": "isProxySQL",
             "value": "true"
         }]

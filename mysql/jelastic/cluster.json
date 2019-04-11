@@ -43,7 +43,7 @@
             }
         }, {
             "type": "toggle",
-            "caption": "Add ProxySQL",
+            "caption": "Add ProxySQL \n<span style=\"width:14px; height:14px;\"\n class=\"hint-btn flat-theme question\"\n ext:qtip=\"Add ProxySQL for SQL Load Balancing\">\n</span>\n",
             "name": "isProxySQL",
             "value": "true"
         }]

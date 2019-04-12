@@ -7,5 +7,21 @@
     "scalingMode": "STATELESS"
   },
   "description" : "Gluster cluster",
-  "skipOnEnvInstall": true
+  "skipOnEnvInstall": true,
+  "settings": {
+      "data": {
+          "directory": "/data"
+      },
+      "fields": [{
+          "type": "string",
+          "caption": "Replicated path",
+          "name": "directory",
+          "required": true,
+          "vtype": "containerPath"
+      }]
+  },  
+  "validation": {
+    "scalingMode": "STATELESS",
+    "minCount": 2
+  }
 }

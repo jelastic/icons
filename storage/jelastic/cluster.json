@@ -1,0 +1,11 @@
+{
+  "convertable" : false,
+  "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/gluster_cluster/master/replication-logic.jps",  
+  "defaultState": false,
+  "nodeGroupData": {
+    "skipNodeEmails": true,
+    "scalingMode": "STATELESS"
+  },
+  "description" : "Gluster cluster",
+  "skipOnEnvInstall": true
+}

@@ -33,6 +33,11 @@
                }
            ],
            "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0,"text":"LT_Tip_Cluster_MariaDB_%(value)"}
+        }, {
+            "type": "toggle",
+            "caption": "Add ProxySQL \n<span style=\"width:14px; height:14px;\"\n class=\"hint-btn flat-theme question\"\n ext:qtip=\"Add ProxySQL for SQL Load Balancing\">\n</span>\n",
+            "name": "isProxySQL",
+            "value": "true"
         }]
     },
     "validation": {

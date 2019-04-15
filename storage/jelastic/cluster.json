@@ -10,12 +10,12 @@
   "skipOnEnvInstall": true,
   "settings": {
       "data": {
-          "directory": "/data"
+          "replicatedPath": "/data"
       },
       "fields": [{
           "type": "string",
           "caption": "Replicated Path",
-          "name": "directory",
+          "name": "replicatedPath",
           "required": true,
           "vtype": "containerPath"
       }]

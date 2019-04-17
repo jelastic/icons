@@ -20,19 +20,19 @@
             "values": [{
                 "value": "master",
                 "caption": "Master-Master",
-                "tooltip": "<h3>Master-Master with Extra Slaves</h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mm.svg?sanitize=true'>"
+                "tooltip": "<h3>Master-Master with Extra Slaves</h3>Pre-configured replication with two interconnected master databases. While horizontal scaling the cluster is extended with additional slave nodes. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/tip-cluster-mm.svg?sanitize=true'>"
             }, {
                 "value": "slave",
                 "caption": "Master-Slave",
-                "tooltip": "<h3>Master-Slave with Extra Slaves</h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-ms.svg?sanitize=true'>"
+                "tooltip": "<h3>Master-Slave with Extra Slaves</h3>Pre-configured replication with one master and one slave database. While horizontal scaling the cluster is extended with additional slaves. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/tip-cluster-ms.svg?sanitize=true'>"
             }, {
                 "value": "multi",
                 "caption": "Multi MGR",
-                "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-mg.svg?sanitize=true'>"
+                "tooltip": "<h3>Multi-Primary Group Replication</h3>All servers can accept updates even if being issued concurrently. <img width='314' height='280' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/tip-cluster-mg.svg?sanitize=true'>"
             }, {
                 "value": "single",
                 "caption": "Single MGR",
-                "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='314' height='308' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/jelastic/images/tip-auto-clustering-sg.svg?sanitize=true'>"
+                "tooltip": "<h3>Single Primary Group Replication</h3>Just one node (primary) can accept updates at a time and an automatic election is called upon its unavailability. <img width='314' height='308' src='https://raw.githubusercontent.com/jelastic/icons/master/mysql/tip-cluster-sg.svg?sanitize=true'>"
             }],
             "tipParams": {
                 "dismissDelay": 600000,
@@ -43,7 +43,7 @@
             }
         }, {
             "type": "toggle",
-            "caption": "Add ProxySQL \n<span style=\"width:14px; height:14px;\"\n class=\"hint-btn flat-theme question\"\n ext:qtip=\"Add ProxySQL for SQL Load Balancing\">\n</span>\n",
+            "caption": "Add ProxySQL",
             "name": "is_proxysql",
             "value": "true"
         }]

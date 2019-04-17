@@ -11,14 +11,7 @@
   "settings": {
       "data": {
           "replicatedPath": "/data"
-      },
-      "fields": [{
-          "type": "string",
-          "caption": "Replicated Path",
-          "name": "replicatedPath",
-          "required": true,
-          "vtype": "containerPath"
-      }]
+      }
   },  
   "validation": {
     "scalingMode": "STATELESS",

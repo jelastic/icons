@@ -11,5 +11,8 @@
   "validation": {
     "scalingMode": "STATELESS",
     "minCount": 2
-  }
+  },
+  "settings": {
+      "replicatedPath": "/data"
+  }  
 }

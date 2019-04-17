@@ -8,11 +8,6 @@
   },
   "description" : "Gluster cluster",
   "skipOnEnvInstall": true,
-  "settings": {
-      "data": {
-          "replicatedPath": "/data"
-      }
-  },  
   "validation": {
     "scalingMode": "STATELESS",
     "minCount": 2

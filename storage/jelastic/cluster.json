@@ -6,7 +6,7 @@
     "skipNodeEmails": true,
     "scalingMode": "STATELESS"
   },
-  "description" : "The auto-clustering allows to create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.",
+  "description" : "The Shared Storage auto-clustering is based on the Gluster software, which allows creating large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.",
   "skipOnEnvInstall": true,
   "validation": {
     "scalingMode": "STATELESS",

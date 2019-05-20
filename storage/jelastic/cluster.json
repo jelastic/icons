@@ -6,7 +6,7 @@
     "skipNodeEmails": true,
     "scalingMode": "STATELESS"
   },
-  "description" : "<a href='https://docs.jelastic.com/auto-clustering' target='_blank'>Shared Storage auto-clustering</a> is based on Gluster software, which allows creating large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.",
+  "description" : "Shared Storage auto-clustering is based on Gluster software, which allows creating large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks. <a href='https://docs.jelastic.com/auto-clustering' target='_blank'>Learn More</a>",
   "skipOnEnvInstall": true,
   "validation": {
     "scalingMode": "STATELESS",

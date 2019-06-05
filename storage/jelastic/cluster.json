@@ -1,5 +1,5 @@
 {
-  "convertable" : false,
+  "convertable" : true,
   "jps"         : "https://raw.githubusercontent.com/SiryjVyiko/gluster_cluster/master/replication-logic.jps",  
   "defaultState": false,
   "nodeGroupData": {

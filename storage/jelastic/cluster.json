@@ -12,6 +12,9 @@
     "scalingMode": "STATELESS",
     "minCount": 2
   },
+  "targetRegions": {
+    "type": ["vz7"]
+  },
   "settings": {
       "replicatedPath": "/data"
   }  

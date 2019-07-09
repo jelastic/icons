@@ -6,7 +6,7 @@
     "skipNodeEmails": true,
     "scalingMode": "STATELESS"
   },
-  "description" : "Shared Storage auto-clustering is based on GlusterFS software. Please <a href='https://docs.jelastic.com/shared-storage-container' target='_blank'>refer to the link</a> below in order to get more information about failover particularities and use cases where this solution is applicable.",
+  "description" : "Shared Storage auto-clustering is based on GlusterFS software. To learn about failover particularities and recommended use cases of this solution, please <a href='https://docs.jelastic.com/shared-storage-container' target='_blank'>refer to the documentation</a>.",
   "skipOnEnvInstall": true,
   "validation": {
     "scalingMode": "STATELESS",

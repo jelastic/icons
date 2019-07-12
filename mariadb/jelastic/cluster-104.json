@@ -33,11 +33,6 @@
                }
            ],
            "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0,"text":"LT_Tip_Cluster_MariaDB_%(value)"}
-        }, {
-            "type": "toggle",
-            "caption": "Add ProxySQL",
-            "name": "is_proxysql",
-            "value": "true"
         }]
     },
     "validation": {

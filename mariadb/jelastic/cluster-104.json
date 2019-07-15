@@ -33,6 +33,12 @@
                }
            ],
            "tipParams": {"dismissDelay":600000,"anchor":"l","hideOnOver":false,"showDelay":0,"text":"LT_Tip_Cluster_MariaDB_%(value)"}
+        }, {
+            "type": "list",
+            "caption": "none",
+            "name": "is_proxysql",
+            "inputType": "hidden",
+            "value": "false"
         }]
     },
     "validation": {

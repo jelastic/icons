@@ -38,7 +38,7 @@
             "caption": "none",
             "name": "is_proxysql",
             "inputType": "hidden",
-            "value": "false"
+            "default": "false"
         }]
     },
     "validation": {

@@ -12,7 +12,8 @@
     "compatibleAddons": ["mysql-auto-cluster"],
     "settings": {
         "data": {
-            "scheme": "slave"
+            "scheme": "slave",
+            "is_proxysql": true
         },
         "fields": [{
             "type": "list",
@@ -36,8 +37,7 @@
         }, {
             "type": "toggle",
             "caption": "Add ProxySQL",
-            "name": "is_proxysql",
-            "value": "true"
+            "name": "is_proxysql"
         }]
     },
     "validation": {

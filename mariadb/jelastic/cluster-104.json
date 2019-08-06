@@ -12,7 +12,8 @@
     "compatibleAddons": ["mysql-auto-cluster"],
     "settings": {
         "data": {
-            "scheme": "slave"
+            "scheme": "slave",
+            "is_proxysql": false
         },
         "fields": [{
             "type": "list",

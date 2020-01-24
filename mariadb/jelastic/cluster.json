@@ -75,6 +75,9 @@
     "recommended": {
         "cloudlets": "${globals.recCloudlets}"
     },
+    "requires": [
+        "proxysql"
+    ],
     "extraNodes": {
         "nodeGroup": "proxy",
         "nodeType": "proxysql",

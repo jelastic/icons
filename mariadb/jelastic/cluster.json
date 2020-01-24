@@ -45,19 +45,21 @@
         "rules": {
             "scheme": {
                 "master": {
-                    "minCount": 2,
-                    "extraNodesCount": 2
+                    "minCount": 2
                 },
                 "slave": {
-                    "minCount": 2,
-                    "extraNodesCount": 2
+                    "minCount": 2
                 },
                 "galera": {
-                    "minCount": 3,
-                    "extraNodesCount": 2
+                    "minCount": 3
                 }
             }
+        },
+      "is_proxysql": {
+        "true": {
+          "extraNodesCount": 2
         }
+      }  
     },
     "extraNodes": {
         "nodeGroup": "proxy",

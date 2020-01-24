@@ -45,15 +45,29 @@
         "rules": {
             "scheme": {
                 "master": {
-                    "minCount": 2
+                    "minCount": 2,
+                    "extraNodesCount": 2
                 },
                 "slave": {
-                    "minCount": 2
+                    "minCount": 2,
+                    "extraNodesCount": 2
                 },
                 "galera": {
-                    "minCount": 3
+                    "minCount": 3,
+                    "extraNodesCount": 2
                 }
             }
+        }
+    },
+    "extraNodes": {
+        "nodeGroup": "proxy",
+        "nodeType": "proxysql",
+        "cloudlets": 8,
+        "displayName": "ProxySQL",
+        "count": 2,
+        "validation": {
+            "minCount": 2,
+            "maxCount": 2
         }
     },
     "description": "Automatic clusterization of the databases using the chosen scheme with pre-configured replication and auto-discovery of the nodes."

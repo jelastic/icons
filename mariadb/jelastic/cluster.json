@@ -41,7 +41,6 @@
     },
     "validation": {
         "scalingMode": "STATELESS",
-        "extraNodesCount": 2,
         "rules": {
             "scheme": {
                 "master": {

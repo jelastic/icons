@@ -1,4 +1,3 @@
-
 {
     "jps": "https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/master/addons/auto-clustering/auto-cluster.jps",
     "defaultState": false,

@@ -1,4 +1,3 @@
-
 {
     "jps": "https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/master/addons/auto-clustering/auto-cluster.jps",
     "defaultState": false,
@@ -45,15 +44,48 @@
         "rules": {
             "scheme": {
                 "master": {
-                    "minCount": 2
+                    "minCount": 2,
+                    "setGlobals": {
+                        "recCloudlets": 8
+                    }
                 },
                 "slave": {
-                    "minCount": 2
+                    "minCount": 2,
+                     "setGlobals": {
+                        "recCloudlets": 8
+                    }
                 },
                 "galera": {
-                    "minCount": 3
+                    "minCount": 3,
+                    "setGlobals": {
+                        "recCloudlets": 16
+                    }
                 }
-            }
+            },
+            "is_proxysql": {
+                "true": {
+                    "setGlobals": {
+                        "proxyCount": 2
+                    }
+                }
+            }  
+        }
+    },
+    "recommended": {
+        "cloudlets": "${globals.recCloudlets}"
+    },
+    "requires": [
+        "proxysql"
+    ],
+    "extraNodes": {
+        "nodeGroup": "proxy",
+        "nodeType": "proxysql",
+        "cloudlets": 8,
+        "displayName": "ProxySQL",
+        "count": "${globals.proxyCount:0}",
+        "validation": {
+            "minCount": 2,
+            "maxCount": 2
         }
     },
     "description": "Automatic clusterization of the databases using the chosen scheme with pre-configured replication and auto-discovery of the nodes."

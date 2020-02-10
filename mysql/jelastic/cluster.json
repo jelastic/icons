@@ -98,6 +98,7 @@
         "nodeGroup": "proxy",
         "nodeType": "proxysql",
         "flexibleCloudlets": 8,
+        "fixedCloudlets": 1,
         "displayName": "ProxySQL",
         "count": "${globals.proxyCount:0}",
         "validation": {

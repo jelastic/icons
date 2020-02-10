@@ -10,7 +10,7 @@
   "skipOnEnvInstall": true,
   "validation": {
     "scalingMode": "STATELESS",
-    "minCount": 2
+    "minCount": 3
   },
   "targetRegions": {
     "type": ["vz7"]

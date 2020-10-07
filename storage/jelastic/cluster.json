@@ -4,7 +4,8 @@
   "defaultState": false,
   "nodeGroupData": {
     "skipNodeEmails": true,
-    "scalingMode": "STATELESS"
+    "scalingMode": "STATELESS",
+    "countIncrement": 2
   },
   "description" : "Shared Storage auto-clustering is based on GlusterFS software. To learn about failover particularities and recommended use cases of this solution, please <a href='https://docs.jelastic.com/shared-storage-container' target='_blank'>refer to the documentation</a>.",
   "skipOnEnvInstall": true,

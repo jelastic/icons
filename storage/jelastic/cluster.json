@@ -1,9 +1,7 @@
 {
   "convertable" : false,
   "jps"         : "https://raw.githubusercontent.com/jelastic-jps/glusterfs/master/replication-logic.jps",
-  "hooks": {
-    "onAfterCreateNodes": "https://raw.githubusercontent.com/jelastic-jps/glusterfs/master/replication-logic.jps"   
-  },
+  "installOn": "afterCreateNodes",
   "defaultState": false,
   "nodeGroupData": {
     "skipNodeEmails": true,

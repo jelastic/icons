@@ -18,6 +18,7 @@
     "type": ["vz7"]
   },
   "settings": {
-      "replicatedPath": "/data"
+      "replicatedPath": "/data",
+      "replicatedVolume": "data"
   }  
 }

@@ -16,9 +16,5 @@
   },
   "targetRegions": {
     "type": ["vz7"]
-  },
-  "settings": {
-      "replicatedPath": "/data",
-      "replicatedVolume": "data"
-  }  
+  }
 }

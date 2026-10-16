@@ -15,7 +15,7 @@
     "countIncrement": 2
   },
   "targetRegions": {
-    "type": ["vz7"]
+    "type": ["vz7","vz8"]
   },
   "settings": {
       "replicatedPath": "/data",
